@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-row>
+    <ion-col col-10 text-center>
+      <ion-title text-center>Task details</ion-title>
+    </ion-col>
+    <ion-col col-2 text-center>
+      <ion-icon
+        ios="md-close"
+        md="md-close"
+        item-end (click)="cancel()"
+      ></ion-icon>
+    </ion-col>
+  </ion-row>
+</ion-header>
+
+<ion-content padding>
+  Description:
+  <p padding>{{task.description}}</p>
+ <button ion-item text-center class="comments-button" (click)="openTrello()">Comments</button>
+
+</ion-content>
+
+

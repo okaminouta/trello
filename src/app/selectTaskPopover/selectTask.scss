@@ -1,0 +1,33 @@
+select-task-modal {
+  ion-header {
+    ion-title {
+      padding: 15px 0;
+      display: inline-flex !important;
+    }
+    ion-icon {
+      margin-top: 13px;
+      font-size: 26px;
+    }
+  }
+  .start-task-icon {
+    padding-top: 13px;
+    font-size: 30px;
+  }
+
+  ion-item {
+    padding-left: 30px !important;
+  }
+
+  ion-fab {
+    bottom: 10px;
+    right: 10px;
+    color: #000;
+    button {
+      background-color: #32db64 !important;
+    }
+  }
+
+  ion-card-title {
+    font-size: 17px !important;
+  }
+}
